@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Isabella Ferreira Nacimbem</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="profile-photo">
+                <img src="imgs/isa perfil.jpg" alt="Isabella Ferreira Nacimbem">
+            </div>
+            <div class="profile-info">
+                <h1>Isabella Ferreira Nacimbem</h1>
+                <p class="tagline"><b>Estudante de Engenharia da Computação</b></p>
+                <p class="description"><b>Apaixonada por tecnologia e inovação</b></p>
+                <p class="location"><i class="fas fa-map-marker-alt"><b></i> Iacanga - SP</b></p>
+            </div>
+        </div>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#education">Educação</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#powerbi">Power BI</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="about">
+            <h3>Sobre Mim!</h3>
+            <p><b>Profissional graduando na área de tecnologia em Engenharia da Computação.
+                 Com cursos complementares em Harvard - CS50, Inglês na Wizard, Power BI 
+                 Avançado pela Data Driven e outros diversos cursos dentro da área desejada.</b></p>
+        </section>
+        
+        <section id="education">
+            <h3>Educação</h3>
+            <div class="education-item">
+                <h4>Bacharelado em Engenharia da Computação</h4>
+                <p><b>Univesp - 5° Período </p>
+                <p>Ano de início: 2022 e término: 2027</b></p>
+            </div>
+        </section>
+        
+        <section id="skills">
+            <h3>Habilidades</h3>
+            <div class="skills-container">
+                <div class="skill-item"><i class="fas fa-table"></i> Excel</div>
+                <div class="skill-item"><i class="fas fa-database"></i> SQL</div>
+                <div class="skill-item"><i class="fas fa-chart-bar"></i> Power BI</div>
+                <div class="skill-item"><i class="fas fa-language"></i> Inglês</div>
+                <div class="skill-item"><i class="fas fa-server"></i> Banco de Dados</div>
+                <div class="skill-item"><i class="fas fa-cubes"></i> SAP</div>
+                <div class="skill-item"><i class="fas fa-tasks"></i> Gestão</div>
+                <div class="skill-item"><i class="fas fa-cogs"></i> GATEC</div>
+                <div class="skill-item"><i class="fab fa-python"></i> Python</div>
+            </div>
+        </section>
+        
+        <section id="projects">
+            <h3>Projetos</h3>
+            <div class="carousel-container">
+                <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+                <div class="carousel">
+                    <div class="carousel-slide">
+                        <img src="imgs/projet1.jpg" alt="Dashboard Comercial" class="powerbi-image">
+                        <div class="powerbi-description">
+                            <h4><b>Gestão de Processos de um E-commerce</h4>
+                            <p>O objetivo deste projeto é desenvolver uma solução integrada para 
+                                otimizar a gestão de processos de um e-commerce, visando melhorar
+                                 a eficiência operacional, aumentar a satisfação dos clientes e 
+                                 impulsionar o crescimento do negócio. 
+
+                                Automatização de Processos: Reduzir o tempo e o esforço manual 
+                                necessários para gerenciar pedidos, inventário, atendimento ao 
+                                cliente e outras operações rotineiras, utilizando ferramentas de 
+                                automação.
+                                
+                                Melhoria na Gestão de Inventário: Implementar sistemas de controle 
+                                de estoque que permitam uma visão em tempo real dos produtos 
+                                disponíveis, prevenindo problemas como falta de estoque ou excesso 
+                                de mercadorias.</b></p>
+                           <!--<a href="#" class="btn">Ver Projeto</a>-->
+                        </div>
+                    </div>
+                    <div class="carousel-slide">
+                        <img src="imgs/projet2.jpg" alt="Outro Projeto" class="powerbi-image">
+                        <div class="powerbi-description">
+                            <h4><b>Gestão de Processos de um E-commerce</h4>
+                            <p>O objetivo deste projeto é desenvolver uma solução integrada para 
+                                otimizar a gestão de processos de um e-commerce, visando melhorar
+                                 a eficiência operacional, aumentar a satisfação dos clientes e 
+                                 impulsionar o crescimento do negócio. 
+
+                                Automatização de Processos: Reduzir o tempo e o esforço manual 
+                                necessários para gerenciar pedidos, inventário, atendimento ao 
+                                cliente e outras operações rotineiras, utilizando ferramentas de 
+                                automação.
+                                
+                                Melhoria na Gestão de Inventário: Implementar sistemas de controle 
+                                de estoque que permitam uma visão em tempo real dos produtos 
+                                disponíveis, prevenindo problemas como falta de estoque ou excesso 
+                                de mercadorias.</b></p>
+                            <!--<a href="#" class="btn">Ver Projeto</a>-->
+                        </div>
+                    </div>
+                    <!-- Adicione mais slides conforme necessário -->
+                </div>
+                <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+            </div>
+        </section>
+        
+        <section id="powerbi">
+            <h3>Power BI</h3>
+            <div class="powerbi-container">
+                <div class="powerbi-item">
+                    <img src="imgs/agrp.jpg" alt="Power BI Visual 7" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard de Logística</h4>
+                        <p><b>Esse tipo de análise são para empresas que buscam otimizar a eficiência operacional e a satisfação dos clientes através de gestão. 
+
+                            Foi criado indicadores com chave de desempenho (KPIs) e Métricas, como: 
+                            
+                            <br> - On Time Delivery 
+                            <br> - Quantidade de Viagens
+                            <br> - Evolução do Frete 
+                            <br> - Peso e Cubagem Transportada 
+                            <br>  - Desempenho por Região 🌏</b></p>
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash1.jpg" alt="Power BI Visual 1" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard Comercial</h4>
+                        <p><b>O dashboard comercial foi criado com o objetivo de ter visualização de
+                             dados projetada para fornecer uma visão clara e concisa das métricas
+                              de desempenho de vendas de uma empresa. Ele permite que os gestores 
+                              de vendas, analistas e outros stakeholders monitorem, analisem e 
+                              tomem decisões informadas com base em dados em tempo real.
+                               É uma ferramenta essencial para transformar dados brutos em insights
+                                acionáveis, permitindo aos tomadores de decisão acompanhar o 
+                                desempenho comercial, identificar oportunidades de crescimento e 
+                                otimizar as operações de vendas. Com uma interface intuitiva e 
+                                visualizações claras, este dashboard facilita a análise de dados
+                                 e a comunicação eficaz das métricas de desempenho em toda a 
+                                 organização.</b></p>
+                                 
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash2.jpg" alt="Power BI Visual 2" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard de Fornecedores</h4>
+                        <p><b>O dashboard de fornecedores é uma ferramenta crucial para monitorar 
+                            e gerenciar a performance dos fornecedores, a origem dos produtos, 
+                            os tipos de produtos fornecidos e a relação desses produtos com as 
+                            vendas. Este dashboard permite aos gestores de compras, tomarem 
+                            decisões informadas para otimizar a cadeia de suprimentos, além do
+                             acompanhamento das performances dos fornecedores, entender a origem
+                              e a qualidade dos produtos fornecidos, e analisar a relação desses
+                               produtos com as vendas. Facilitando a gestão eficiente da cadeia 
+                               e a tomada de decisões estratégicas para otimizar o desempenho 
+                               operacional.</b></p>
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash3.jpg" alt="Power BI Visual 3" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard Financeiro</h4>
+                        <p><b>O dashboard financeiro é primordial para monitorar e gerenciar as
+                             finanças de uma empresa. Ele fornece uma visão abrangente das 
+                             receitas, despesas, saldos, simulações de cenários e saldo ao 
+                             longo do tempo, permitindo que os gestores financeiros tomem 
+                             decisões informadas e estratégicas, acompanhar o desempenho financeiro 
+                             da empresa, entender a relação entre receitas e despesas, simular 
+                             cenários futuros e analisar o saldo ao longo do tempo. Para realizar
+                              a gestão eficiente das finanças e a tomada de decisões estratégicas
+                               para otimizar o desempenho financeiro.</b></p>
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash4.jpg" alt="Power BI Visual 4" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard de E - commerce</h4>
+                        <p><b>O dashboard de vendas de um e-commerce foi criado para analisar o 
+                            desempenho de vendas da loja online. Ele fornece insights detalhados 
+                            sobre a representatividade das vendas, faturamento e métodos de
+                             pagamento, permitindo que os gestores de vendas e analistas tomem 
+                             decisões informadas para otimizar as operações e aumentar a receita,
+                              desempenho das vendas, entender a representatividade das vendas por 
+                              diferentes categorias, monitorar o faturamento e analisar as 
+                              preferências de pagamento dos clientes. Com visualizações claras e
+                               interatividade intuitiva, para assim haver uma gestão eficiente das
+                                operações de vendas e a tomada de decisões estratégicas para 
+                                otimizar o desempenho do e-commerce.</b></p>
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash5.jpg" alt="Power BI Visual 5" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard Vendas</h4>
+                        <p><b>O objetivo principal de um dashboard de vendas para uma locadora 
+                            de filmes é proporcionar uma visão consolidada e detalhada do 
+                            desempenho de vendas, segmentado por loja, período e vendedor. 
+                            Ajuda os gestores a monitorar as métricas-chave, identificar tendências
+                             de filmes, e tomar decisões estratégicas que otimizem as operações 
+                             e melhorem a rentabilidade da locadora. Com visualizações claras e 
+                             interatividade intuitiva, essa analise gera uma melhoria na gestão 
+                             para as operações de vendas, promove a melhoria contínua e maximiza
+                              a rentabilidade da locadora.</b></p>
+                    </div>
+                </div>
+                <div class="powerbi-item">
+                    <img src="imgs/dash6.jpg" alt="Power BI Visual 6" class="powerbi-image">
+                    <div class="powerbi-description">
+                        <h4>Dashboard de Recursos Humanos</h4>
+                        <p><b>A criação de um dashboard de Recursos Humanos (RH) tem como objetivo
+                             fornecer uma visão detalhada e analítica dos principais indicadores
+                              relacionados aos colaboradores da organização. Promove para os
+                               gestores de RH e líderes empresariais a monitorar, analisar e
+                                gerenciar eficazmente aspectos cruciais do capital humano,
+                                 promovendo a eficiência operacional e o bem-estar dos funcionários.
+                                 Ele não apenas ajuda na gestão eficiente de férias, horas extras e
+                                  remuneração, mas também impulsiona a estratégia organizacional ao
+                                   alinhar as práticas de RH com os objetivos de negócio. 
+                                   Com análises detalhadas, este dashboard capacita os líderes de 
+                                   RH a promover um ambiente de trabalho produtivo, justo e
+                                    motivador para todos os colaboradores da empresa.</b></p>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social-links">
+            <a href="mailto:Isaferreiranacimbem@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/isabellaferreiranacimbem" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/IsabellaNacimbem" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.instagram.com/isaabusiness?igsh=MTJpamcwbnJvenpvaA==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://youtube.com/@isanacimbem?si=1Kd4qWYuajmyib-I" target="_blank"><i class="fab
+        </div>
+        <p>&copy; 2024 Isabella Ferreira Nacimbem. Todos os direitos reservados.</p>
+    </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-image">
+    </div>
+
+    
+    <script src="carrossel.js"></script>
+</body>
+</html>
